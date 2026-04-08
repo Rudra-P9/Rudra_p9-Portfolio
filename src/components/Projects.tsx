@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { Tilt } from "react-tilt";
+import { Tilt } from 'react-next-tilt';
 
 import { ExternalLink, Github } from "lucide-react";
 import { escaperoomgame } from "../assets";
@@ -96,7 +96,7 @@ const ProjectCard = ({ project, index }: { project: any; index: number; key?: nu
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
             referrerPolicy="no-referrer"
           />
-          
+
           {/* GitHub Icon Overlay (visible on image hover) */}
           <div className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <a
@@ -108,7 +108,7 @@ const ProjectCard = ({ project, index }: { project: any; index: number; key?: nu
               <Github size={28} />
             </a>
           </div>
-          
+
           {/* Category Badge on image */}
           <div className="absolute left-4 top-4">
             <span className="rounded-full bg-black/60 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary backdrop-blur-md border border-primary/20 glow-purple">
@@ -161,7 +161,7 @@ export default function Projects() {
   return (
     <section className="relative min-h-screen w-full py-24 bg-background" id="projects">
       <div className="container mx-auto px-6 max-w-7xl">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -175,7 +175,7 @@ export default function Projects() {
             Here are some of my recent projects. They highlight my ability to build seamless, interactive, and functional applications using modern tech stacks.
           </p>
         </motion.div>
-        
+
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <ProjectCard key={index} project={project} index={index} />
