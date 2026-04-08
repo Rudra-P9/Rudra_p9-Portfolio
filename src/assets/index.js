@@ -31,7 +31,7 @@ const r = "https://skillicons.dev/icons?i=r";
 const uofsc = "https://picsum.photos/seed/uofsc/200/200";
 const amazon = "https://skillicons.dev/icons?i=amazon";
 const exxon = "https://picsum.photos/seed/exxon/200/200";
-const resumeFile = "./resume.pdf";
+const resumeFile = `${import.meta.env.BASE_URL}resume.pdf`;
 
 // Use the stable route; dev/prod redirect to /resume/<basename>
 const resume = resumeFile;
