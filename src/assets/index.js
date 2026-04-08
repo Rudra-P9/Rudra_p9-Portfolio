@@ -23,7 +23,7 @@ import java from "./java.png";
 import javafx from "./javafx.png";
 import javascript from "./javascript.png";
 import junit from "./junit.png";
-import nodejs from "./nodejs.png"; 
+import nodejs from "./nodejs.png";
 import pycharm from "./pycharm.png";
 import python from "./python.png";
 import r from "./r.png";
