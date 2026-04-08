@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
+import React from "react";
 import { Tilt } from "react-tilt";
+
 import { ExternalLink, Github } from "lucide-react";
 import { escaperoomgame } from "../assets";
 
@@ -69,7 +71,7 @@ const projects = [
   },
 ];
 
-const ProjectCard = ({ project, index }: { project: any; index: number }) => {
+const ProjectCard = ({ project, index }: { project: any; index: number; key?: number | string }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
