@@ -8,32 +8,33 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-// External icon URLs for missing local assets
+// New local asset imports
+import uofsc from "./UofSC.png";
+import amazon from "./amazon.png";
+import cplusplus from "./c++.svg";
+import css from "./css.png";
+import eclipse from "./eclipse.png";
+import exxon from "./exxon.png";
+import figma from "./figma.png";
+import git from "./git.png";
+import html from "./html.png";
+import intellij from "./intellij.png";
+import java from "./java.png";
+import javafx from "./javafx.png";
+import javascript from "./javascript.png";
+import junit from "./junit.png";
+import nodejs from "./nodejs.png"; 
+import pycharm from "./pycharm.png";
+import python from "./python.png";
+import r from "./r.png";
+import reactjs from "./reactjs.png";
+import threejs from "./threejs.svg";
+import typescript from "./typescript.png";
+import vscode from "./vscode.png";
+
+// Stable public asset URLs mapped by Vite
 const logo = `${import.meta.env.BASE_URL}logo0.png`;
-const css = "https://skillicons.dev/icons?i=css";
-const git = "https://skillicons.dev/icons?i=git";
-const html = "https://skillicons.dev/icons?i=html";
-const javascript = "https://skillicons.dev/icons?i=js";
-const java = "https://skillicons.dev/icons?i=java";
-const reactjs = "https://skillicons.dev/icons?i=react";
-const python = "https://skillicons.dev/icons?i=py";
-const cplusplus = "https://skillicons.dev/icons?i=cpp";
-const typescript = "https://skillicons.dev/icons?i=ts";
-const threejs = "https://skillicons.dev/icons?i=threejs";
-const pycharm = "https://skillicons.dev/icons?i=pycharm";
-const intellij = "https://skillicons.dev/icons?i=idea";
-const eclipse = "https://skillicons.dev/icons?i=eclipse";
-const vscode = "https://skillicons.dev/icons?i=vscode";
-const junit = "https://skillicons.dev/icons?i=junit";
-const javafx = "https://picsum.photos/seed/javafx/100/100";
-const r = "https://skillicons.dev/icons?i=r";
-
-const uofsc = "https://picsum.photos/seed/uofsc/200/200";
-const amazon = "https://skillicons.dev/icons?i=amazon";
-const exxon = "https://picsum.photos/seed/exxon/200/200";
 const resumeFile = `${import.meta.env.BASE_URL}resume.pdf`;
-
-// Use the stable route; dev/prod redirect to /resume/<basename>
 const resume = resumeFile;
 
 export {
@@ -67,5 +68,7 @@ export {
   vscode,
   junit,
   javafx,
-  r
+  r,
+  figma,
+  nodejs
 };

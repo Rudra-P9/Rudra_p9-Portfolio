@@ -4,7 +4,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Code } from "lucide-react";
 import { 
   java, python, typescript, javascript, html, css, r, 
-  reactjs, git, vscode, pycharm, intellij, eclipse, javafx, junit, threejs
+  reactjs, git, vscode, pycharm, intellij, eclipse, javafx, junit, threejs,
+  nodejs, figma
 } from "../assets";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -26,12 +27,14 @@ const skillsData: Record<string, Skill[]> = {
   ],
   "Frameworks & Libraries": [
     { name: "React", icon: reactjs },
+    { name: "Node.js", icon: nodejs },
     { name: "Three.js", icon: threejs },
     { name: "JavaFX", icon: javafx },
     { name: "JUnit", icon: junit },
   ],
   "Tools": [
     { name: "Git", icon: git },
+    { name: "Figma", icon: figma },
     { name: "VS Code", icon: vscode },
     { name: "PyCharm", icon: pycharm },
     { name: "IntelliJ", icon: intellij },
