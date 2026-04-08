@@ -188,7 +188,7 @@ export default function Preloader({ onComplete, durationMs = 3200 }: LoadingScre
         </div>
 
         <div className="logo-wrap">
-          <img src="/logo0.png" alt="Logo" width={92} height={92} className="logo" />
+          <img src={`${import.meta.env.BASE_URL}logo0.png`} alt="Logo" width={92} height={92} className="logo" />
         </div>
       </div>
 

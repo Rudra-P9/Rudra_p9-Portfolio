@@ -9,7 +9,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 // External icon URLs for missing local assets
-const logo = "/logo0.png";
+const logo = `${import.meta.env.BASE_URL}logo0.png`;
 const css = "https://skillicons.dev/icons?i=css";
 const git = "https://skillicons.dev/icons?i=git";
 const html = "https://skillicons.dev/icons?i=html";
