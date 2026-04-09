@@ -1,5 +1,6 @@
 import profilepic from "./pfp.png";
 import escaperoomgame from "./escaperoomgame.png";
+import portfolioss from "./portfolioss.png";
 import backend from "./backend.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -62,6 +63,7 @@ export {
   amazon,
   exxon,
   escaperoomgame,
+  portfolioss,
   pycharm,
   intellij,
   eclipse,

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 
 import { ExternalLink, Github } from "lucide-react";
-import { escaperoomgame } from "../assets";
+import { escaperoomgame, portfolioss } from "../assets";
 
 const projects = [
   {
@@ -13,6 +13,15 @@ const projects = [
     tags: ["Java", "HTML/CSS", "Scrum", "Git"],
     source_code_link: "https://github.com/Rudra-P9/Infinite-Stress-Loop-Escape-Room",
     live_project_link: "https://github.com/Rudra-P9/Infinite-Stress-Loop-Escape-Room",
+  },
+  {
+    title: "Portfolio",
+    category: "Web Development",
+    image: portfolioss,
+    description: "A modern, responsive personal portfolio website built with React and TailwindCSS. Features a dynamic 3D background, smooth scrolling animations, and a glassmorphism design aesthetic to showcase projects and skills.",
+    tags: ["TypeScript", "JavaScript", "React", "TailwindCSS", "HTML", "CSS"],
+    source_code_link: "https://github.com/Rudra-P9/Rudra_p9-Portfolio",
+    live_project_link: "https://rudrap9.vercel.app/",
   },
 ];
 
