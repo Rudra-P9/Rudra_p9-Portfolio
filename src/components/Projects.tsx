@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import React from "react";
-import { Tilt } from 'react-next-tilt';
+import Tilt from "react-parallax-tilt";
 
 import { ExternalLink, Github } from "lucide-react";
 import { escaperoomgame } from "../assets";
@@ -81,11 +80,10 @@ const ProjectCard = ({ project, index }: { project: any; index: number; key?: nu
       className="h-full"
     >
       <Tilt
-        options={{
-          max: 15,
-          scale: 1.02,
-          speed: 400,
-        }}
+        tiltMaxAngleX={15}
+        tiltMaxAngleY={15}
+        scale={1.02}
+        transitionSpeed={400}
         className="glass-card flex h-full flex-col overflow-hidden rounded-3xl border border-white/10 bg-background/50 shadow-xl transition-all hover:border-primary/30"
       >
         {/* Project Image Section */}
