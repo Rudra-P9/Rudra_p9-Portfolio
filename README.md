@@ -222,6 +222,9 @@ Contributions, issues, and feature requests are welcome!
 
 <table>
 	<tr>
+		<td width="80">
+			<img src="src/assets/pfp.png" width="72" height="72" style="border-radius:50%" alt="Rudra Patel" />
+		</td>
 		<td>
 			<b>Rudra Patel</b><br/>
 			Computer Science Student — University of South Carolina<br/>
