@@ -14,60 +14,6 @@ const projects = [
     source_code_link: "https://github.com/Rudra-P9/Infinite-Stress-Loop-Escape-Room",
     live_project_link: "https://github.com/Rudra-P9/Infinite-Stress-Loop-Escape-Room",
   },
-  {
-    title: "Quantum Dashboard",
-    category: "Web App",
-    image: "https://picsum.photos/seed/project1/800/600",
-    description: "A real-time data visualization platform with futuristic UI.",
-    tags: ["React", "D3.js", "GSAP"],
-    source_code_link: "https://github.com/Rudra-P9",
-    live_project_link: "#",
-  },
-  {
-    title: "Neon Nexus",
-    category: "E-commerce",
-    image: "https://picsum.photos/seed/project2/800/600",
-    description: "A high-end fashion store with 3D product previews.",
-    tags: ["Next.js", "Three.js", "Stripe"],
-    source_code_link: "https://github.com/Rudra-P9",
-    live_project_link: "#",
-  },
-  {
-    title: "Cyber Sphere",
-    category: "Game",
-    image: "https://picsum.photos/seed/project3/800/600",
-    description: "Multiplayer browser-based space exploration game.",
-    tags: ["Socket.io", "Canvas", "Node.js"],
-    source_code_link: "https://github.com/Rudra-P9",
-    live_project_link: "#",
-  },
-  {
-    title: "Aether OS",
-    category: "Portfolio",
-    image: "https://picsum.photos/seed/project4/800/600",
-    description: "Operating system themed portfolio with interactive apps.",
-    tags: ["React", "Framer Motion", "Tailwind"],
-    source_code_link: "https://github.com/Rudra-P9",
-    live_project_link: "#",
-  },
-  {
-    title: "Vortex AI",
-    category: "SaaS",
-    image: "https://picsum.photos/seed/project5/800/600",
-    description: "AI-powered content generation tool for creative agencies.",
-    tags: ["OpenAI", "React", "Express"],
-    source_code_link: "https://github.com/Rudra-P9",
-    live_project_link: "#",
-  },
-  {
-    title: "Lumina Music",
-    category: "Mobile App",
-    image: "https://picsum.photos/seed/project6/800/600",
-    description: "Immersive music player with audio-reactive visuals.",
-    tags: ["React Native", "Web Audio API"],
-    source_code_link: "https://github.com/Rudra-P9",
-    live_project_link: "#",
-  },
 ];
 
 const ProjectCard = ({ project, index }: { project: any; index: number; key?: number | string }) => {
@@ -157,7 +103,7 @@ const ProjectCard = ({ project, index }: { project: any; index: number; key?: nu
 
 export default function Projects() {
   return (
-    <section className="relative min-h-screen w-full py-24 bg-background" id="projects">
+    <section className="relative min-h-screen w-full py-24" id="projects">
       <div className="container mx-auto px-6 max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
