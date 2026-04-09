@@ -235,7 +235,7 @@ Contributions, issues, and feature requests are welcome!
 		</td>
 	</tr>
 	<tr>
-		<td colspan="2>
+		<td colspan="2">
 			⭐ If you found this useful or inspiring, consider starring the repo!
 		</td>
 	</tr>
