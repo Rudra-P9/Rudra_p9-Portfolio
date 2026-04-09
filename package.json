@@ -41,6 +41,7 @@
     "vite": "^6.2.0"
   },
   "optionalDependencies": {
-    "lightningcss-linux-x64-gnu": "1.32.0"
+    "lightningcss-linux-x64-gnu": "1.32.0",
+    "@tailwindcss/oxide-linux-x64-gnu": "*"
   }
 }
