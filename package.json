@@ -29,7 +29,6 @@
     "react-dom": "^19.0.0",
     "react-next-tilt": "^0.4.3",
     "react-parallax-tilt": "^1.7.322",
-    "react-tilt": "^1.0.2",
     "tailwind-merge": "^3.5.0",
     "vite": "^6.2.0"
   },
