@@ -72,22 +72,22 @@ export default function About() {
               About <span className="text-primary">Me</span>
             </h2>
             <p className="mb-8 text-lg leading-relaxed text-white/70">
-              I'm a detail-oriented Software Engineer with experience in optimizing operational processes in high-traffic environments. 
+              I'm a detail-oriented Software Engineer with experience in optimizing operational processes in high-traffic environments.
               I'm passionate about building high-quality web experiences and bridging the gap between complex backend logic and stunning frontend visuals.
             </p>
-            
+
             <div className="grid grid-cols-2 gap-6 mb-10">
               <div className="glass-card rounded-2xl p-6 border border-white/5">
                 <h4 className="text-3xl font-bold text-primary mb-2">2+</h4>
                 <p className="text-sm text-white/60 uppercase tracking-wider font-medium">Years Experience</p>
               </div>
               <div className="glass-card rounded-2xl p-6 border border-white/5">
-                <h4 className="text-3xl font-bold text-primary mb-2">10+</h4>
+                <h4 className="text-3xl font-bold text-primary mb-2">1</h4>
                 <p className="text-sm text-white/60 uppercase tracking-wider font-medium">Projects Completed</p>
               </div>
             </div>
 
-            <a 
+            <a
               href={resume}
               target="_blank"
               rel="noopener noreferrer"
