@@ -160,7 +160,7 @@ export default function Contact() {
                   name="from_name"
                   type="text"
                   className="w-full rounded-xl border border-white/10 bg-white/5 px-6 py-4 text-white outline-none transition-all focus:border-primary/50 focus:bg-white/10"
-                  placeholder="John Doe"
+                  placeholder="Your Name"
                 />
               </div>
               <div className="space-y-2">
@@ -172,7 +172,7 @@ export default function Contact() {
                   name="from_email"
                   type="email"
                   className="w-full rounded-xl border border-white/10 bg-white/5 px-6 py-4 text-white outline-none transition-all focus:border-primary/50 focus:bg-white/10"
-                  placeholder="john@example.com"
+                  placeholder="Your email"
                 />
               </div>
               <div className="space-y-2">
@@ -184,7 +184,7 @@ export default function Contact() {
                   name="message"
                   rows={5}
                   className="w-full rounded-xl border border-white/10 bg-white/5 px-6 py-4 text-white outline-none transition-all focus:border-primary/50 focus:bg-white/10"
-                  placeholder="Tell me about your project..."
+                  placeholder="Hey Rudra, Love the website! Let's Chat!"
                 />
               </div>
               <button 
