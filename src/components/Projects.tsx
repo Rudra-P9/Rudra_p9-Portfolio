@@ -2,9 +2,18 @@ import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 
 import { ExternalLink, Github } from "lucide-react";
-import { escaperoomgame, portfolioss } from "../assets";
+import { escaperoomgame, portfolioss, atsify } from "../assets";
 
 const projects = [
+  {
+    title: "ATSify",
+    category: "AI / Full-Stack",
+    image: atsify,
+    description: "An enterprise-grade ATS simulation engine that reverse-engineers resume scoring logic from platforms like Workday, Taleo, iCIMS, Greenhouse, Lever, and SuccessFactors. Features a cinematic holographic UI, NLP-powered keyword extraction with TF-IDF scoring, and AI-driven insights via Google Gemini 1.5 Flash.",
+    tags: ["TypeScript", "React", "Vite", "Tailwind CSS", "Gemini AI", "Firebase"],
+    source_code_link: "https://github.com/Rudra-P9/ATSify",
+    live_project_link: "https://at-sify-pied.vercel.app/",
+  },
   {
     title: "Escape Game 🎮",
     category: "Game Development",
