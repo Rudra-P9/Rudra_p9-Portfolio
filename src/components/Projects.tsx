@@ -12,7 +12,7 @@ const projects = [
     description: "An enterprise-grade ATS simulation engine that reverse-engineers resume scoring logic from platforms like Workday, Taleo, iCIMS, Greenhouse, Lever, and SuccessFactors. Features a cinematic holographic UI, NLP-powered keyword extraction with TF-IDF scoring, and AI-driven insights via Google Gemini 1.5 Flash.",
     tags: ["TypeScript", "React", "Vite", "Tailwind CSS", "Gemini AI", "Firebase"],
     source_code_link: "https://github.com/Rudra-P9/ATSify",
-    live_project_link: "https://at-sify-pied.vercel.app/",
+    live_project_link: "https://atsify-scanner.vercel.app/",
   },
   {
     title: "Escape Game 🎮",
