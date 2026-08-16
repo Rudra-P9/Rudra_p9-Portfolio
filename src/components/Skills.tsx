@@ -5,7 +5,8 @@ import { Code } from "lucide-react";
 import { 
   java, python, typescript, javascript, html, css, r, 
   reactjs, git, vscode, pycharm, intellij, eclipse, javafx, junit, threejs,
-  nodejs, figma
+  nodejs, figma, cIcon, cplusplus, tailwindcss, express, restapi, firebase,
+  github, githubactions, linux, gsapIcon, framer
 } from "../assets";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -17,6 +18,8 @@ type Skill = {
 
 const skillsData: Record<string, Skill[]> = {
   "Languages": [
+    { name: "C", icon: cIcon },
+    { name: "C++", icon: cplusplus },
     { name: "Java", icon: java },
     { name: "Python", icon: python },
     { name: "TypeScript", icon: typescript },
@@ -27,13 +30,22 @@ const skillsData: Record<string, Skill[]> = {
   ],
   "Frameworks & Libraries": [
     { name: "React", icon: reactjs },
+    { name: "Tailwind CSS", icon: tailwindcss },
+    { name: "Express.js", icon: express },
+    { name: "GSAP", icon: gsapIcon },
+    { name: "Framer Motion", icon: framer },
     { name: "Node.js", icon: nodejs },
     { name: "Three.js", icon: threejs },
     { name: "JavaFX", icon: javafx },
     { name: "JUnit", icon: junit },
   ],
-  "Tools": [
+  "Tools & DevOps": [
     { name: "Git", icon: git },
+    { name: "GitHub", icon: github },
+    { name: "GitHub Actions", icon: githubactions },
+    { name: "REST APIs", icon: restapi },
+    { name: "Firebase", icon: firebase },
+    { name: "Linux / Unix", icon: linux },
     { name: "Figma", icon: figma },
     { name: "VS Code", icon: vscode },
     { name: "PyCharm", icon: pycharm },
@@ -44,8 +56,8 @@ const skillsData: Record<string, Skill[]> = {
 
 const categories = [
   { key: "Languages", direction: "left" as const, duration: "35s" },
-  { key: "Frameworks & Libraries", direction: "right" as const, duration: "28s" },
-  { key: "Tools", direction: "left" as const, duration: "22s" },
+  { key: "Frameworks & Libraries", direction: "right" as const, duration: "30s" },
+  { key: "Tools & DevOps", direction: "left" as const, duration: "32s" },
 ];
 
 export default function Skills() {

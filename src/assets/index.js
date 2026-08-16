@@ -34,6 +34,16 @@ import threejs from "./threejs.svg";
 import typescript from "./typescript.png";
 import vscode from "./vscode.png";
 import handshake from "./handshake.png";
+import cIcon from "./c.svg";
+import tailwindcss from "./tailwindcss.svg";
+import express from "./express.svg";
+import restapi from "./restapi.svg";
+import firebase from "./firebase.svg";
+import githubactions from "./githubactions.svg";
+import linux from "./linux.svg";
+import gsapIcon from "./gsap.svg";
+import framer from "./framer.svg";
+import dsa from "./dsa.svg";
 
 // Stable public asset URLs mapped by Vite
 const logo = `${import.meta.env.BASE_URL}logo0.png`;
@@ -76,5 +86,15 @@ export {
   figma,
   nodejs,
   atsify,
-  handshake
+  handshake,
+  cIcon,
+  tailwindcss,
+  express,
+  restapi,
+  firebase,
+  githubactions,
+  linux,
+  gsapIcon,
+  framer,
+  dsa
 };
