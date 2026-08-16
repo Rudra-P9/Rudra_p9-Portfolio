@@ -1,8 +1,5 @@
 // General assets
 import profilepic from "./pfp.png";
-import backend from "./backend.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import fullstack from "./creator.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -60,9 +57,6 @@ const resume = resumeFile;
 
 export {
   logo,
-  backend,
-  mobile,
-  web,
   fullstack,
   github,
   menu,
