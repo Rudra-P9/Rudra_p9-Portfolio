@@ -1,6 +1,5 @@
 // General assets
 import profilepic from "./pfp.png";
-import fullstack from "./creator.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import uofsc from "./UofSC.png";
