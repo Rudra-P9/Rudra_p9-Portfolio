@@ -1,9 +1,21 @@
 import React, { useState, useCallback, useMemo, useTransition, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Briefcase, Calendar, MapPin } from "lucide-react";
-import { amazon, exxon } from "../assets";
+import { amazon, exxon, handshake } from "../assets";
 
 const experienceData = [
+  {
+    company: "Handshake AI",
+    role: "AI Evaluation Specialist",
+    date: "July 2026 - Present",
+    location: "Remote",
+    logo: handshake,
+    points: [
+      "Evaluated and enhanced the performance of AI models through rigorous testing protocols, contributing to significant improvements in accuracy and reliability.",
+      "Provided detailed feedback on AI outputs, collaborating with cross-functional teams to refine model behavior and user experience.",
+      "Conducted comparative analyses of different AI models, identifying strengths and weaknesses to guide development priorities",
+    ],
+  },
   {
     company: "Exxon Gas Station",
     role: "Manager",
@@ -36,11 +48,10 @@ const ExperienceCard = React.memo(({ experience, isActive, onClick, index }: any
       initial={{ opacity: 0, x: -20 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ delay: index * 0.1 }}
-      className={`flex items-center p-4 rounded-2xl cursor-pointer transition-all duration-300 border ${
-        isActive 
-          ? "bg-primary/20 border-primary/50 shadow-lg shadow-primary/10" 
+      className={`flex items-center p-4 rounded-2xl cursor-pointer transition-all duration-300 border ${isActive
+          ? "bg-primary/20 border-primary/50 shadow-lg shadow-primary/10"
           : "bg-white/5 border-white/5 hover:bg-white/10"
-      }`}
+        }`}
       onClick={onClick}
       role="button"
       tabIndex={0}

@@ -33,6 +33,7 @@ import reactjs from "./reactjs.png";
 import threejs from "./threejs.svg";
 import typescript from "./typescript.png";
 import vscode from "./vscode.png";
+import handshake from "./handshake.png";
 
 // Stable public asset URLs mapped by Vite
 const logo = `${import.meta.env.BASE_URL}logo0.png`;
@@ -74,5 +75,6 @@ export {
   r,
   figma,
   nodejs,
-  atsify
+  atsify,
+  handshake
 };

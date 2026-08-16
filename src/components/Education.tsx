@@ -13,7 +13,7 @@ const educationData = [
     degree: "Bachelor of Science in Computer Science",
     date: "August 2024 – Dec 2027",
     location: "Columbia, SC",
-    gpa: "3.723",
+    gpa: "3.799",
     logo: uofsc,
   },
 ];
@@ -53,7 +53,7 @@ export default function Education() {
           {educationData.map((edu, idx) => (
             <div key={idx} className="education-card glass-card relative overflow-hidden rounded-3xl p-8 border border-white/5 md:p-12">
               <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 h-64 w-64 rounded-full bg-primary/10 blur-3xl" />
-              
+
               <div className="flex flex-col gap-8 md:flex-row md:items-start">
                 {/* Logo */}
                 <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-2xl bg-white/5 p-4 backdrop-blur-sm border border-white/10 md:h-32 md:w-32">
