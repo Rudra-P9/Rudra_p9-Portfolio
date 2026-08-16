@@ -1,49 +1,57 @@
+// General assets
 import profilepic from "./pfp.png";
-import escaperoomgame from "./escaperoomgame.png";
-import portfolioss from "./portfolioss.png";
-import atsify from "./atsify.png";
 import backend from "./backend.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import fullstack from "./creator.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
-// New local asset imports
 import uofsc from "./UofSC.png";
-import amazon from "./amazon.png";
-import cplusplus from "./c++.svg";
-import css from "./css.png";
-import eclipse from "./eclipse.png";
-import exxon from "./exxon.png";
-import figma from "./figma.png";
-import git from "./git.png";
-import html from "./html.png";
-import intellij from "./intellij.png";
-import java from "./java.png";
-import javafx from "./javafx.png";
-import javascript from "./javascript.png";
-import junit from "./junit.png";
-import nodejs from "./nodejs.png";
-import pycharm from "./pycharm.png";
-import python from "./python.png";
-import r from "./r.png";
-import reactjs from "./reactjs.png";
-import threejs from "./threejs.svg";
-import typescript from "./typescript.png";
-import vscode from "./vscode.png";
-import handshake from "./handshake.png";
-import cIcon from "./c.svg";
-import tailwindcss from "./tailwindcss.svg";
-import express from "./express.svg";
-import restapi from "./restapi.svg";
-import firebase from "./firebase.svg";
-import githubactions from "./githubactions.svg";
-import linux from "./linux.svg";
-import gsapIcon from "./gsap.svg";
-import framer from "./framer.svg";
-import dsa from "./dsa.svg";
+
+// Project assets
+import escaperoomgame from "./projects/escaperoomgame.png";
+import portfolioss from "./projects/portfolioss.png";
+import atsify from "./projects/atsify.png";
+
+// Experience assets
+import amazon from "./experience/amazon.png";
+import exxon from "./experience/exxon.png";
+import handshake from "./experience/handshake.png";
+
+// Languages assets
+import cIcon from "./languages/c.svg";
+import cplusplus from "./languages/c++.svg";
+import java from "./languages/java.png";
+import python from "./languages/python.png";
+import typescript from "./languages/typescript.png";
+import javascript from "./languages/javascript.png";
+import html from "./languages/html.png";
+import css from "./languages/css.png";
+import r from "./languages/r.png";
+
+// Frameworks & Libraries assets
+import reactjs from "./frameworks/reactjs.png";
+import tailwindcss from "./frameworks/tailwindcss.svg";
+import express from "./frameworks/express.svg";
+import gsapIcon from "./frameworks/gsap.svg";
+import framer from "./frameworks/framer.svg";
+import nodejs from "./frameworks/nodejs.png";
+import threejs from "./frameworks/threejs.svg";
+import javafx from "./frameworks/javafx.png";
+import junit from "./frameworks/junit.png";
+
+// Tools & DevOps assets
+import git from "./tools/git.png";
+import github from "./tools/github.png";
+import githubactions from "./tools/githubactions.svg";
+import restapi from "./tools/restapi.svg";
+import firebase from "./tools/firebase.svg";
+import linux from "./tools/linux.svg";
+import figma from "./tools/figma.png";
+import vscode from "./tools/vscode.png";
+import pycharm from "./tools/pycharm.png";
+import intellij from "./tools/intellij.png";
+import eclipse from "./tools/eclipse.png";
 
 // Stable public asset URLs mapped by Vite
 const logo = `${import.meta.env.BASE_URL}logo0.png`;
@@ -95,6 +103,5 @@ export {
   githubactions,
   linux,
   gsapIcon,
-  framer,
-  dsa
+  framer
 };
