@@ -56,7 +56,6 @@ const resume = resumeFile;
 
 export {
   logo,
-  fullstack,
   github,
   menu,
   close,
